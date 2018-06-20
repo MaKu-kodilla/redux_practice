@@ -16,11 +16,11 @@ export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
     }
 };
 
-export const editComment = (text, id) => {
+export const editComment = (id, text) => {
     return {
         type: EDIT_COMMENT,
-        text,
-        id
+        id,
+        text
     }
 };
 
